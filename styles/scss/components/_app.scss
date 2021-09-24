@@ -1,0 +1,39 @@
+.app {
+  grid-area: app;
+  max-width: 100%;
+  height: 43px;
+  padding: 18px 15px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  &__info {
+    width: 150px;
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 1.3;
+
+    span {
+      font-weight: 700;
+    }
+
+    &--blocked {
+      @media (max-width: 690px) {
+        display: none;
+        //width: 40%;
+      }
+      @media (max-width: 625px) {
+        display: block;
+      }
+    }
+  }
+  &__install {
+    min-width: 76px;
+    margin-right: 0;
+    margin-left: auto;
+    color: $lightgreen;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,28 @@
+.nav {
+  max-width: 100%;
+  height: 60px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__menu {
+    height: 16px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__item {
+    &--qr {
+      height: 28px;
+    }
+    &--na {
+      height: 32px;
+    }
+    &--pay,
+    &--bell {
+      height: 22px;
+    }
+  }
+}

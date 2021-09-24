@@ -1,0 +1,49 @@
+#card--one {
+  grid-area: careOne;
+}
+#card--two {
+  grid-area: careTwo;
+}
+
+.card {
+  // grid-area: card;
+
+  background-color: $white;
+  border-radius: 8px;
+  width: 100%;
+  //height: 240px;
+
+  @media (max-width: 624px) {
+    display: none;
+  }
+  &__thumb {
+    //height: 160px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  &__info {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: saturate(55%);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.55);
+    margin-left: 17px;
+  }
+  &__text {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 1.2;
+    div {
+      font-size: 15px;
+      color: $black;
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+  }
+}

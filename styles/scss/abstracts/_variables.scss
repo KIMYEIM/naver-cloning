@@ -1,0 +1,20 @@
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+$bgGray: hsl(210, 22.2%, 96.5%);
+$btnGray: hsl(216, 38.5%, 97.5%);
+$textLightGray: hsl(227, 6%, 70.4%);
+$textDarkGray: hsl(240, 0.8%, 46.7%);
+$sky: hsl(201, 100%, 51%);
+$purple: hsl(263, 79.5%, 65.5%);
+$darkgreen: hsl(145, 87.7%, 41.6%);
+$lightgreen: hsl(148, 85%, 42%);
+$headerFont: hsl(136, 44.3%, 77.5%);
+$headerBg: rgb(12, 197%, 102%);
+$headerGrad: linear-gradient(
+  90deg,
+  rgba(12, 197, 102, 1) 0%,
+  rgba(8, 196, 105, 1) 33%,
+  rgba(3, 191, 116, 1) 65%,
+  rgba(7, 188, 122, 1) 100%
+);
+$shadow: rgba(0, 0, 0, 0.1);

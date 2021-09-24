@@ -1,0 +1,65 @@
+.grid {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  // grid-row-gap: 17px;
+  grid-column-gap: 17px;
+  // grid-template-areas:
+  //   'weather now money'
+  //   'weather now money'
+  //   'weather now stock'
+  //   'weather now stock'
+  //   'app now stock'
+  //   'app now stock'
+  //   'webtoon card2 card1'
+  //   'webtoon card2 card1';
+
+  @media (max-width: 1095px) {
+    grid-template-columns: repeat(2, 1fr);
+
+    // grid-template-areas:
+    //   'weather now'
+    //   'money now'
+    //   'stock now'
+    //   'stock app'
+    //   'card1 webtoon'
+    //   'card2 webtoon';
+  }
+
+  @media (max-width: 624px) {
+    grid-template-columns: 1fr;
+    width: 84.5%;
+    // grid-template-areas:
+    //   'weather'
+    //   'now'
+    //   'money'
+    //   'stock'
+    //   'app'
+    //   'webtoon'
+    //   'today';
+    margin-bottom: 65px;
+  }
+
+  &__subgrid {
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .today {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .webtoon {
+    @media (max-width: 624px) {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+  &__item {
+    background-color: $white;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px $shadow;
+  }
+}

@@ -1,0 +1,33 @@
+.event {
+  width: 205px;
+  height: 55px;
+  padding: 0 10px;
+  margin: 22px auto 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 624px) {
+    display: none;
+  }
+
+  &__smile {
+    margin-right: 15px;
+    width: 50px;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  &__arrow {
+    margin-left: 8px;
+    height: 12.5px;
+    margin-top: -2px;
+  }
+}

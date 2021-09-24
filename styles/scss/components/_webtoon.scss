@@ -1,0 +1,79 @@
+.webtoon {
+  grid-area: webtoon;
+  height: 368px;
+  // background: transparent;
+  // box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+
+  @media (max-width: 624px) {
+    padding: 12px 0;
+    gap: 12px;
+  }
+  &__item {
+    &--left {
+      @extend %webtoon-item;
+
+      @media (max-width: 624px) {
+        border-radius: 0 50px 50px 0;
+        margin-left: -7px;
+      }
+    }
+    &--right {
+      @extend %webtoon-item;
+      @media (max-width: 624px) {
+        border-radius: 50px 0 0 50px;
+        margin-right: -7px;
+        margin-left: auto;
+      }
+      flex-direction: row-reverse;
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+  &__arrow {
+    &--left {
+      @extend %arrow;
+    }
+    &--right {
+      @extend %arrow;
+    }
+  }
+  &__text {
+    &--left {
+      @extend %text;
+      text-align: right;
+      margin-right: 10px;
+      margin-left: auto;
+      div {
+        @extend %title;
+        color: $purple;
+      }
+    }
+    &--right {
+      @extend %text;
+      text-align: left;
+      margin-right: auto;
+      margin-left: 10px;
+      div {
+        @extend %title;
+        color: $lightgreen;
+      }
+    }
+  }
+  &__thumb {
+    &--left {
+      @extend %thumb;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    &--right {
+      @extend %thumb;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+}
