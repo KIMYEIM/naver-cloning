@@ -22,10 +22,10 @@ export default function Grid() {
 
 
   const controllGrid = (e) => {
-    let width = document.body.clientWidth;
+    let width = window.innerWidth;
     console.log(width);
 
-    if (width < 624) {
+    if (width < 627) {
       // $grid1.style.display = 'flex';
       $grid1.style.display = 'flex';
       $grid2.style.display = 'none';

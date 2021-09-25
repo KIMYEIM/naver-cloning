@@ -27,7 +27,7 @@
     //   'card2 webtoon';
   }
 
-  @media (max-width: 624px) {
+  @media (max-width: 627px) {
     grid-template-columns: 1fr;
     width: 84.5%;
     // grid-template-areas:
@@ -52,7 +52,7 @@
   }
 
   .webtoon {
-    @media (max-width: 624px) {
+    @media (max-width: 627px) {
       background: transparent;
       box-shadow: none;
     }
