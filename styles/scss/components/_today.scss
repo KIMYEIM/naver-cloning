@@ -1,7 +1,7 @@
 .today {
   grid-area: today;
 
-  @media (min-width: 627px) {
+  @media (min-width: 640px) {
     display: none;
   }
   ::-webkit-scrollbar {

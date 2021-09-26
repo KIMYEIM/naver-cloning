@@ -154,7 +154,7 @@ input {
   align-items: center;
   font-size: 13px;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__item--right, .webtoon__item--left {
     padding: 0 13px;
     height: 80px;
@@ -172,7 +172,7 @@ input {
   font-weight: 600;
   font-size: 15px;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__text--right div, .webtoon__text--left div {
     font-size: 14px;
   }
@@ -183,7 +183,7 @@ input {
   font-size: 14px;
   font-weight: 500;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__text--right, .webtoon__text--left {
     font-size: 13px;
   }
@@ -260,12 +260,12 @@ input {
   grid-auto-rows: auto;
   grid-column-gap: 17px;
 }
-@media (max-width: 1095px) {
+@media (max-width: 1110px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .grid {
     grid-template-columns: 1fr;
     width: 84.5%;
@@ -280,7 +280,7 @@ input {
   background: transparent;
   box-shadow: none;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .grid .webtoon {
     background: transparent;
     box-shadow: none;
@@ -337,7 +337,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 17px;
 }
-@media (min-width: 627px) {
+@media (min-width: 640px) {
   hr {
     display: none;
   }
@@ -601,7 +601,7 @@ hr {
   align-items: center;
   font-size: 13px;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__item--right, .webtoon__item--left {
     padding: 0 13px;
     height: 80px;
@@ -619,7 +619,7 @@ hr {
   font-weight: 600;
   font-size: 15px;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__text--right div, .webtoon__text--left div {
     font-size: 14px;
   }
@@ -630,7 +630,7 @@ hr {
   font-size: 14px;
   font-weight: 500;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__text--right, .webtoon__text--left {
     font-size: 13px;
   }
@@ -650,13 +650,13 @@ hr {
   flex-direction: column;
   padding: 8px 0;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon {
     padding: 12px 0;
     gap: 12px;
   }
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__item--left {
     background-color: white;
     border-radius: 0 50px 50px 0;
@@ -666,7 +666,7 @@ hr {
 .webtoon__item--right {
   flex-direction: row-reverse;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .webtoon__item--right {
     border-radius: 50px 0 0 50px;
     margin-right: -7px;
@@ -714,7 +714,7 @@ hr {
   border-radius: 8px;
   width: 100%;
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .card {
     display: none;
   }
@@ -756,7 +756,7 @@ hr {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 627px) {
+@media (min-width: 640px) {
   .today {
     display: none;
   }
@@ -874,7 +874,7 @@ hr {
     display: none;
   }
 }
-@media (max-width: 627px) {
+@media (max-width: 639px) {
   .app__info--blocked {
     display: block;
   }
@@ -919,7 +919,7 @@ hr {
   border-radius: 30px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-@media (max-width: 624px) {
+@media (max-width: 639px) {
   .event {
     display: none;
   }

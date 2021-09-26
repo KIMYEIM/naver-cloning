@@ -25,7 +25,7 @@ export default function Grid() {
     let width = window.innerWidth;
     console.log(width);
 
-    if (width < 627) {
+    if (width < 640) {
       // $grid1.style.display = 'flex';
       $grid1.style.display = 'flex';
       $grid2.style.display = 'none';
@@ -33,7 +33,7 @@ export default function Grid() {
 
       $grid1.append($weather, $now, $money, $stock, $app, $webtoon, $hr, $today);
 
-    } else if (width < 1095) {
+    } else if (width < 1111) {
       $grid1.style.display = 'flex';
       $grid2.style.display = 'flex';
       $grid3.style.display = 'none';
